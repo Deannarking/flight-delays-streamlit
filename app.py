@@ -10,7 +10,7 @@ st.markdown("**Analytical Question:** Which U.S. airlines and airports experienc
 # ------------------- Data Loading -------------------
 @st.cache_data
 def load_data():
-    flights = pd.read_csv("flights.csv")  # or sample: pd.read_csv("flights.csv", nrows=500000)
+    flights = pd.read_csv("Sample_flights.csv")
     airlines = pd.read_csv("airlines.csv")
     airports = pd.read_csv("airports.csv")
     
